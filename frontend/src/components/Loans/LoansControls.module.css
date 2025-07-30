@@ -1,0 +1,30 @@
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.controlGroup {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+
+.controlGroup label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+}
+
+.select {
+  flex: 1;
+  min-width: 150px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+}

@@ -1,0 +1,26 @@
+.tableWrapper {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+  padding: 0.75rem;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+tbody td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #eee;
+}
