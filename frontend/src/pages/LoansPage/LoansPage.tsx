@@ -23,6 +23,7 @@ const LoansPage = () => {
           `${API_BASE_URL}/api/loans`,
           {
             params: { currency, duration, aggregation },
+            withCredentials: true,
           }
         );
         setData(response.data);
